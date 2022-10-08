@@ -1,17 +1,17 @@
 @font-face {
   font-family: OpenSans-Regular;
-  src: url("fonts/OpenSans-Regular.woff") format("woff"),
-    url("fonts/OpenSans-Regular.ttf") format("truetype"),
-    url("fonts/OpenSans-Regular.woff2") format("woff2");
+  src: url("../fonts/OpenSans-Regular.woff") format("woff"),
+    url("../fonts/OpenSans-Regular.ttf") format("truetype"),
+    url("../fonts/OpenSans-Regular.woff2") format("woff2");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: OpenSans-Bold;
-  src: url("fonts/OpenSans-Bold.woff") format("woff"),
-    url("fonts/OpenSans-Bold.ttf") format("truetype"),
-    url("fonts/OpenSans-Bold.woff2") format("woff2");
+  src: url("../fonts/OpenSans-Bold.woff") format("woff"),
+    url("../fonts/OpenSans-Bold.ttf") format("truetype"),
+    url("../fonts/OpenSans-Bold.woff2") format("woff2");
   font-style: normal;
   font-weight: bold;
 }
@@ -25,7 +25,7 @@ body {
   font-family: OpenSans-Regular, serif;
   font-size: 13px;
   padding: 15px 15px 0px 15px;
-  background-image: url("images/banner-bg.jpg");
+  background-image: url("../images/banner-bg.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -173,7 +173,7 @@ body {
   padding-left: 19px;
   padding-right: 14px;
   appearance: none;
-  background-image: url("svg/form-arrows.svg");
+  background-image: url("../svg/form-arrows.svg");
   background-repeat: no-repeat;
   background-position: right 14px center;
   background-size: 9px;
@@ -198,7 +198,7 @@ option:not(:checked) {
   height: 18px;
   box-sizing: border-box;
   appearance: none;
-  background-image: url("svg/form-empty-circle.svg");
+  background-image: url("../svg/form-empty-circle.svg");
   background-repeat: no-repeat;
   background-size: 18px;
   vertical-align: middle;
@@ -209,7 +209,7 @@ option:not(:checked) {
 }
 
 .feedback__radio:checked {
-  background-image: url("svg/form-circle.svg");
+  background-image: url("../svg/form-circle.svg");
 }
 
 .feedback__textarea {
@@ -278,7 +278,7 @@ option:not(:checked) {
   }
   
   .header {
-    background-image: url("images/banner-mobile.jpg");
+    background-image: url("../images/banner-mobile.jpg");
   }
   
   .menu__btn {
@@ -373,7 +373,7 @@ option:not(:checked) {
   }
   
   .header {
-    background-image: url("images/banner-bg-tablet.jpg");
+    background-image: url("../images/banner-bg-tablet.jpg");
   }
   
   .menu__btn {
