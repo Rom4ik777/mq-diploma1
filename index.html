@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diploma-Adaptive</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="menu">
+        <a href="#" class="menu__logo-link">
+          <img src="https://raw.githubusercontent.com/netology-code/mq-diploma/6d4326e80d41421614172dca12240a3941487c7c/sources/svg/noemi-logo.svg" alt="logo" class="menu__logo">
+        </a>
+        <div class="menu__btn">
+          <span class="menu__btn-line"></span>
+        </div>
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Главная</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Посты</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Статьи</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Теги</a>         
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Темы</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Контакты</a>
+          </li>
+        </ul>     
+      </nav>
+      <h1 class="header-tittle">Блог о творчестве, спорте и образе жизни</h1>
+      <div class="popup _hidden">
+        <div class="popup__wrapper">
+          <div class="feedback">
+            <header class="feedback__header">
+              <h3 class="feedback__tittle">Ваш фидбек</h3>
+            </header>
+            <div class="feedback__content">
+              <form class="feedback__form">
+                <div class="feedback__group">       
+                  <label class="feedback__select">
+                    <span class="feedback__label">Как часто вы заходите на сайт?</span>
+                    <select class="select">
+                      <option value="select-every-day" selected>Почти каждый день</option>
+                      <option value="every-few-days">Раз в несколько дней</option>
+                      <option value="every-few-weeks">Раз в несколько недель</option>
+                      <option value="several-times-a-year">Несколько раз в год</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="feedback__group">
+                  <span class="feedback__label">Вы подписаны на e-mail рассылку?</span>
+                  <label class="feedback__radio-yes">
+                    <input type="radio" name="answer" class="feedback__radio">Да
+                  </label>
+                  <label>
+                    <input type="radio" name="answer" class="feedback__radio">Нет
+                  </label>
+                </div>
+                <div class="feedback__group textarea-group">     
+                  <label class="feedback__text-area">
+                    <span class="feedback__label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+                    <textarea class="feedback__textarea" placeholder="Может, больше рецептов?" required></textarea>
+                  </label>
+                </div>
+                <div class="feedback__group feedback__btn-group">
+                  <button class="feedback__btn" type="submit">Отправить</button>
+                </button>
+              </form>
+            </div>
+          </div>
+          <button class="popup__close" type="button"></button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main></main>
+  <footer></footer>
+</body>
+</html>
