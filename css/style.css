@@ -122,7 +122,7 @@ body {
   border: none;
   width: 1.38em;
   height: 1.38em;
-  background-image: url("svg/form-x.svg");
+  background-image: url("../svg/form-x.svg");
   background-repeat: no-repeat;
 }
 
