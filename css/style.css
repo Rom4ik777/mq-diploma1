@@ -353,8 +353,7 @@ option:not(:checked) {
   }
   
   .container {
-    max-width: 1199px;
-    min-height: 95.3vh;
+    height: 100%;
   }
   
   .menu__logo {
