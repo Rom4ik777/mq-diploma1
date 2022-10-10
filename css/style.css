@@ -108,7 +108,6 @@ body {
 
 .popup__wrapper {
   max-width: 390px;
-  max-height: 596px;
   position: relative;
   background-color: white;
 }
