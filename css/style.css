@@ -689,7 +689,7 @@ option:not(:checked) {
 .date-author {
   display: flex;
   padding-top: 37px;
-  gap: 16px;
+  gap: 15px;
 }
 
 .time {
