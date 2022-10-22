@@ -670,7 +670,7 @@ option:not(:checked) {
 }
 
 .post-info {
-  width: 360px;
+  max-width: 360px;
 }
 
 .post-info__name {
@@ -689,7 +689,7 @@ option:not(:checked) {
 .date-author {
   display: flex;
   padding-top: 37px;
-  gap: 15px;
+  gap: 16px;
 }
 
 .time {
@@ -915,9 +915,23 @@ sup {
     gap: 35px;
   }
 
+  .main {
+    width: 100%;
+  }
+
+  .product__posts-list {
+    gap: 23px;
+  }
+
   .post-item {
     flex-direction: column;
     gap: 15px;
+  }
+
+  .post-info {
+    min-width: 360px;
+    width: 100%;
+    max-width: 100%;
   }
 
   .post__img {
@@ -950,6 +964,7 @@ sup {
   }
 
   .post-info {
+    max-width: 100%;
     padding-top: 15px;
   }
 
@@ -964,6 +979,10 @@ sup {
 
   .post-description {
     padding-top: 20px;
+  }
+
+  .post-description_br {
+    padding-top: 10px;
   }
 
   .post-item:nth-child(n):after {
@@ -1022,28 +1041,27 @@ sup {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 347px;
+}
+
+.product__post {
+  width: 100%;
 }
 
 .shop__post-img {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 85.6%; 
+  margin-left: auto;
+  margin-right: auto;
   object-fit: cover;
   background-color: #eff6f1;
-}
-
-.product__post {
-  display: flex;
-  justify-content: center;
-  width: 300px;
-  height: 204px;
 }
 
 .product__post-info {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  max-width: 347px;
+  width: 100%;
   margin-top: -30px;
   padding: 48px 22px 22px 22px;
   box-sizing: border-box;
@@ -1112,19 +1130,14 @@ sup {
     gap: 23px;
   }
 
-  .product__post {
-    width: 290px;
-    height: 226px;
+  .product__post-item {
+    width: 48%;
+    max-width: 100%;
+    padding-bottom: 5px;
   }
 
-  .product__post-info {
-    max-width: 336px;
-  }
-}
-
-@media (min-width: 641px) and (max-width: 1124px) {
-  .product__posts-list {
-    justify-content: normal;
+  .shop__post-img {
+    max-width: 85%;
   }
 }
 
@@ -1138,19 +1151,17 @@ sup {
     gap: 23px;
   }
 
-  .product__post {
-    width: auto;
-    height: auto;
-    padding: 0 20px;
+  .product__post-item {
+    max-width: 100%;
   }
 
   .product__post-info {
     padding: 48px 20px 20px 20px;
-    max-width: 329px;
+    min-width: 329px;
   }
 
   .post-name__link {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 
