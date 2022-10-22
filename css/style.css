@@ -1,4 +1,4 @@
-@font-fac {
+@font-face {
   font-family: OpenSans-Regular;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"),
     url("../fonts/OpenSans-Regular.ttf") format("truetype"),
@@ -17,7 +17,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 999990;
 }
 
 .header {
